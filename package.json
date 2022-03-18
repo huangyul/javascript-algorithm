@@ -1,0 +1,25 @@
+{
+  "name": "javascript-algorithm",
+  "version": "1.0.0",
+  "description": "javascript算法学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangyul/javascript-algorithm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huangyul/javascript-algorithm/issues"
+  },
+  "homepage": "https://github.com/huangyul/javascript-algorithm#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1"
+  }
+}
