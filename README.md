@@ -49,3 +49,23 @@ test('计算 2 + 3 = 5', () => {
 ### 字符串
 
 #### 反转字符串单词
+
+###### 主要用到方法
+
+- String.prototype.split() // 字符串分解数组
+- Array.prototype.join() // 数组组成字符串
+- Array.prototype.reverse() // 数组反转
+- Array.prototype.map() // 数组内每一个值都执行函数，返回新的数组
+
+```javascript
+// 测试用例
+// 输入 I`m a student
+// 输出 m`I a tneduts
+
+function reversalWord(str) {
+  return str
+    .split(' ')
+    .map((i) => i.split('').reverse().join(''))
+    .join(' ')
+}
+```
